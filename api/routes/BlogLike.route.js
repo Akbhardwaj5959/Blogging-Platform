@@ -1,6 +1,6 @@
 import express from 'express';
 import { doLike, likeCount } from '../controllers/BlogLike.controller.js';
-import { authenticate } from '../middleware/Authenticate.js';
+import { authenticate } from '../middleware/authenticate.js';
 
 
 

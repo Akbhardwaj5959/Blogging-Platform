@@ -1,7 +1,7 @@
 import express from 'express';
 import { addBlog, deleteBlog, editBlog, getAllBlogs, getBlog, getBlogByCategory, getRelatedBlog, search, showAllBlog, updateBlog } from '../controllers/Blog.controller.js';
 import upload from '../config/multer.js';
-import { authenticate } from '../middleware/Authenticate.js';
+import { authenticate } from '../middleware/authenticate.js';
 
 
 const BlogRoute = express.Router();

@@ -1,6 +1,6 @@
 import express from 'express';
 import { addcomment, commentCount, deleteComment, getAllComments, getComments } from '../controllers/Comment.controller.js';
-import { authenticate } from '../middleware/Authenticate.js';
+import { authenticate } from '../middleware/authenticate.js';
 
 
 
