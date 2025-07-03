@@ -10,7 +10,7 @@ export const authenticate = async (req, res, next) => {
         return next(403, 'unauthorized')
     } 
 
-        const decodeToken = jwt.verify(token, process.env.jWT_SECRET);
+        const decodeToken = jwt.verify(token, process.env.JWT_SECRET);
         req.user = decodeToken ;
         next();
     } catch (error) {
