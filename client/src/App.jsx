@@ -20,7 +20,6 @@ import Comments from './pages/Comments'
 import User from './pages/User'
 import AuthRouteProtection from './components/AuthRouteProtection'
 import OnlyAdminAllowed from './components/OnlyAdminAllowed'
-import SignIn from './pages/Signin'
 
 const App = () => {
   return (
