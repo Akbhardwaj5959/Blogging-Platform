@@ -1,6 +1,6 @@
 import express from 'express';
 import { addCategory, deleteCategory, getAllCategory, showCategory, updateCategory } from '../controllers/Category.controller.js';
-import { onlyadmin } from '../middleware/onlyAdmin.js';
+import { onlyadmin } from '../middleware/onlyadmin.js';
 
 
 
