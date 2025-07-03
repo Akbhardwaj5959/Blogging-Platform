@@ -19,7 +19,7 @@ import Comments from './pages/Comments'
 import User from './pages/User'
 import AuthRouteProtection from './components/AuthRouteProtection'
 import OnlyAdminAllowed from './components/OnlyAdminAllowed'
-import Signin1 from './pages/Signin1'
+import Signin from './pages/Signin'
 
 const App = () => {
   return (
@@ -52,7 +52,7 @@ const App = () => {
 
       </Route>
 
-      <Route path={RouteSignIn} element={<Signin1/>} />
+      <Route path={RouteSignIn} element={<Signin/>} />
       <Route path={RouteSignUp} element={<SignUp/>} />
     </Routes>
     </BrowserRouter>
