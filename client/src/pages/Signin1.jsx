@@ -21,7 +21,7 @@ import { useDispatch } from "react-redux";
 import { setUser } from "@/redux/user/user.slice";
 import GoogleLogin from "@/components/GoogleLogin";
 import logo from "@/assets/images/logo-white.png";
-const Signin = () => {
+const Signin1 = () => {
   const dispatch = useDispatch();
 
   const Navigate = useNavigate();
@@ -145,4 +145,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Signin1;
