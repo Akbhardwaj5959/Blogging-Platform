@@ -2,7 +2,7 @@ import express from 'express';
 import { deleteUser, getAllUser, getUser, updateUser } from '../controllers/User.controller.js';
 // import upload from '../config/multer.js';
 import upload from '../config/multer.js'
-import { authenticate } from '../middleware/Authenticate.js';
+import { authenticate } from '../middleware/authenticate.js';
 
 
 
