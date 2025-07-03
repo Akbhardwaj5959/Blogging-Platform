@@ -71,7 +71,7 @@ const Topbar = () => {
 
         </button>
         <Link to={RouteIndex}>
-        <img src={logo} className=" mb:w-auto w-60" />
+        <img src={logo} className=" mb:w-auto " />
         </Link>
       </div>
 
