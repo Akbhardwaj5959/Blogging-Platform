@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/table";
 import { useFetch } from "@/hooks/useFetch";
 import { getEnv } from "@/halpers/getenv";
-import Loading from "@/components/Loading";
+import Loading from "@/components/Loading1";
 
 import { FaRegEdit } from "react-icons/fa";
 import { FaRegTrashAlt } from "react-icons/fa";

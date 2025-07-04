@@ -2,7 +2,7 @@ import { getEnv } from '@/halpers/getenv'
 import { useFetch } from '@/hooks/useFetch'
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import Loading from "@/components/Loading";
+import Loading from "@/components/Loading1";
 import { Avatar, AvatarImage } from '@/components/ui/avatar';
 import { decode } from 'entities';
 import Comment from '@/components/Comment';

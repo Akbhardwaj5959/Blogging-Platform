@@ -30,7 +30,7 @@ import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { RouteBlog } from "@/halpers/RouteName";
 import { decode} from "entities"
-import Loading from "@/components/Loading";
+import Loading from "@/components/Loading1";
 const EditBlog = () => {
   const {blogid} = useParams();
   const navigate = useNavigate();
