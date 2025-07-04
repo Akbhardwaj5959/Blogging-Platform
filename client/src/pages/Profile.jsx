@@ -19,7 +19,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
 import { Textarea } from "@/components/ui/textarea";
 import { useFetch } from "@/hooks/useFetch";
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 import { IoCameraOutline } from "react-icons/io5";
 import Dropzone from "react-dropzone";
 import { setUser } from "@/redux/user/user.slice";

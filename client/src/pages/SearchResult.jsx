@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSearchParams } from 'react-router-dom'
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 import { useFetch } from '@/hooks/useFetch';
 import { getEnv } from '@/halpers/getenv';
 import BlogCard from '@/components/BlogCard';

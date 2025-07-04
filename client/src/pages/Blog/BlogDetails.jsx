@@ -17,7 +17,7 @@ import { getEnv } from "@/halpers/getenv";
 import { deleteData } from "@/halpers/handleDelete";
 import { useState } from "react";
 import { showToast } from "@/halpers/showToast";
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 import { FaRegEdit } from "react-icons/fa";
 import { FaRegTrashAlt } from "react-icons/fa";
 import moment from "moment";

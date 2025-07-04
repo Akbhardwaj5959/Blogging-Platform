@@ -2,7 +2,7 @@ import { getEnv } from '@/halpers/getenv';
 import { useFetch } from '@/hooks/useFetch';
 import React from 'react'
 import { Avatar, AvatarImage } from './ui/avatar';
-// import Loading from "@/components/loading";
+
 import usericon from "@/assets/images/user.png";
 import moment from 'moment';
 import { useSelector } from 'react-redux';
