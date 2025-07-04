@@ -1,7 +1,7 @@
 import { getEnv } from '@/halpers/getenv'
 import { useFetch } from '@/hooks/useFetch'
 import React from 'react'
-import Loading from '../components/Loading'
+import Loading from '@/components/Loading'
 import BlogCard from '@/components/BlogCard';
 
 const index = () => {
