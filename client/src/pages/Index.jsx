@@ -4,7 +4,7 @@ import React from 'react'
 import Loading from '@/components/Loading'
 import BlogCard from '@/components/BlogCard';
 
-const index = () => {
+const Index = () => {
    const {data: blogData, loading, error} = useFetch(`${getEnv('VITE_API_BASE_URL')}/blog/blogs`,{
             method: 'get',
             credentials: 'include'
@@ -24,4 +24,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
